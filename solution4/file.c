@@ -14,7 +14,7 @@ int main(int argc, char* argv[]){
     for(int i=1; i<argc; i++){
         char* opt = argv[i];
 
-        if (opt[0] -= '-'){
+        if (opt[0] == '-'){
             printf("%s\n", error);
         }
         int index = 1;
